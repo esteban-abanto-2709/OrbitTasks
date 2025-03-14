@@ -1,7 +1,11 @@
-import AppRouter from "./routes/AppRouter";
+import MainLayout from "./layouts/MainLayout";
 
 const App = () => {
-  return <AppRouter />;
+	return (
+		<MainLayout>
+			<h1>Hello, world!</h1>
+		</MainLayout>
+	);
 };
 
 export default App;
